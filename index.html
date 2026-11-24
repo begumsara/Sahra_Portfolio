@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAHRA BEGUM – ICT Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+
+<header class="nav">
+  <a class="logo" href="#top">SAHRA BEGUM<span>.</span></a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#journey">Education</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <!-- EDIT: name, role and intro -->
+  <section class="hero">
+    <div class="hero-text">
+    <p class="hello">Hi, I’m</p>
+    <h1 class="grad">Sahra Begum</h1>
+    <p class="role"><span class="typing">ICT Student &amp; Web Developer</span></p>
+    <p class="intro">I design and build websites, networks and tools that make technology easier to use.</p>
+    <div class="btns">
+      <a class="btn solid" href="#projects">View my work</a>
+      <a class="btn outline" href="#contact">Contact me</a>
+    </div>
+    </div>
+
+    <!-- EDIT: put your photo in the same folder and name it photo.jpg (or change the name below) -->
+    <div class="hero-photo">
+      <img src="photo.jpeg" alt="sahra" width="100" height="100">
+      <div class="badge"><b>Sahra Begum</b><span>ICT Student</span></div>
+    </div>
+  </section>
+
+  <!-- Scrolling skills strip: EDIT the words (keep both copies identical) -->
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>SQL</span><span>Networking</span><span>Git</span>
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>SQL</span><span>Networking</span><span>Git</span>
+    </div>
+  </div>
+
+  <!-- EDIT: write about yourself. Put your CV in this folder as cv.pdf -->
+  <section id="about" class="reveal">
+    <h2>About me</h2>
+    <div class="about">
+      <div>
+        <p>I’m an Information and Communication Technology student who enjoys understanding how systems work, from websites to networks and databases. I like turning ideas into working projects and learning new tools along the way.</p>
+        <p>I’m looking for an internship or junior role where I can grow my skills in web development or IT support while contributing to a real team.</p>
+        <a class="btn solid" href="Sahra-CV.pdf" download>Download CV</a>
+      </div>
+      <dl class="facts">
+        <dt>Studying</dt><dd>Information &amp; Communication Technology</dd>
+        <dt>Location</dt><dd>Akkaraipattu, Sri Lanka</dd>
+        <dt>Languages</dt><dd>English</dd>
+        <dt>Looking for</dt><dd>Internship / junior role</dd>
+      </dl>
+    </div>
+  </section>
+
+  <!-- EDIT: your projects -->
+  <section id="projects" class="reveal">
+    <h2>Projects</h2>
+    <div class="cards">
+      <article class="card">
+        <span class="num">01</span>
+        <h3>School Website</h3>
+        <p>Responsive site for a school club with an events page and contact form.</p>
+        <ul class="details">
+          <li><b>Problem:</b> the club had no place to share events.</li>
+          <li><b>Built:</b> a 4-page responsive site with a contact form.</li>
+          <li><b>Learned:</b> layout, forms and mobile design.</li>
+        </ul>
+        <p class="tech">HTML · CSS · JavaScript</p>
+        <!--<a href="#">View project →</a>-->
+      </article>
+      <article class="card">
+        <span class="num">02</span>
+        <h3>Student management system</h3>
+        <p>Built an OOP-based C++ application to manage student records, including enrollment, grading, and report generation.</p>
+        <ul class="details">
+          <li><b>Problem:</b> Keeping student records by hand is slow and causes mistakes.</li>
+          <li><b>Built:</b> A C++ program using OOP that handles student enrollment, grading, and reports.</li>
+          <li><b>Learned:</b> How to use classes and objects to organize a program.</li>
+        </ul>
+        <p class="tech">C++ · File I/O · Object-Oriented Design · Exception Handling</p>
+       <!-- <a href="#">View project →</a>-->
+      </article>
+      <article class="card">
+        <span class="num">03</span>
+        <h3>Multimedia portfolio website </h3>
+        <p>designed and developed a personal portfolio website showcasing skills, achievements, and creative work using multimedia integration.</p>
+        <ul class="details">
+          <li><b>Problem:</b>I needed one place to show my skills, achievements, and creative work to others.</li>
+          <li><b>Built:</b> A personal portfolio website that combines text, images, and other media to present my work.</li>
+          <li><b>Learned:</b> How to plan a website, design it so it looks good, and combine different types of media on one page.</li>
+        </ul>
+        <p class="tech"> HTML · CSS · JavaScript · Bootstrap</p>
+        <!--<a href="#">View project →</a>-->
+      </article>
+    </div>
+  </section>
+
+  <!-- EDIT: skill names and percentages (set --w) -->
+  <section id="skills" class="reveal">
+    <h2>Skills</h2>
+    <div class="bars">
+      <div class="bar"><div class="lbl"><span>Web Development</span><span>85%</span></div><div class="fill" style="--w:85%"></div></div>
+      <div class="bar"><div class="lbl"><span>Networking</span><span>75%</span></div><div class="fill" style="--w:75%"></div></div>
+      <div class="bar"><div class="lbl"><span>Databases</span><span>70%</span></div><div class="fill" style="--w:70%"></div></div>
+      <div class="bar"><div class="lbl"><span>Python</span><span>65%</span></div><div class="fill" style="--w:65%"></div></div>
+    </div>
+  </section>
+
+  <!-- EDIT: your education and experience -->
+  <section id="journey" class="reveal">
+    <h2>Education </h2> <!--Experience-->
+    <div class="two">
+      <div>
+        <h3 class="sub">Education</h3>
+        <div class="timeline">
+          <div class="t-item"><span class="date">2025 – Present</span><h4>BICT</h4><p>University of Vavuniya,Sri Lanka</p></div>
+          <div class="t-item"><span class="date">2021 – 2023</span><h4>Advanced Level / High School</h4><p>Ak/Akkaraipattu Muslim Central College -N/S (AB Super) · Akkaraipattu</p></div>
+        </div>
+      </div>
+     <!-- <div>
+        <h3 class="sub">Experience</h3>
+        <div class="timeline">
+          <div class="t-item"><span class="date">2025</span><h4>IT Intern</h4><p>Company name · Helped with troubleshooting and basic network setup.</p></div>
+          <div class="t-item"><span class="date">2024</span><h4>Club Website Volunteer</h4><p>School ICT club · Built and updated the club website.</p></div>
+        </div>
+      </div>-->
+    </div>
+  </section>
+
+  <!-- EDIT: your certificates and links -->
+  <section id="certificates" class="reveal">
+    <h2>Certificates</h2>
+    <div class="certs">
+      <!--<div class="cert"><h4>Networking Basics</h4><p>Cisco Networking Academy · 2025</p><a href="#">View certificate →</a></div>
+      <div class="cert"><h4>Web Development</h4><p>Online course provider · 2025</p><a href="#">View certificate →</a></div>-->
+      <div class="cert"><h4>Python for Beginners</h4><p>Online course provider · 2026</p><!--<a href="#">View certificate →</a>--></div>
+    </div>
+  </section>
+
+  <!-- EDIT: your email in the link below -->
+  <section id="contact" class="reveal contact">
+    <h2>Let’s work together</h2>
+    <p>Looking for an internship or junior role. Say hello!</p>
+    <a class="btn solid big" href="mailto:sahrabegum5792@gmail.com">sahrabegum5792@gmail.com</a>
+    <div class="social">
+    <a href="#">GitHub</a>
+    <a href="https://www.linkedin.com/in/sahra-begum" target="_blank">LinkedIn</a>
+    <a href="Sahra-CV.pdf" target="_blank">CV</a>
+</div>
+  </section>
+</main>
+
+<footer>© <span id="y"></span> Sahra Begum</footer>
+
+<script>
+document.getElementById('y').textContent = new Date().getFullYear();
+var io = new IntersectionObserver(function(es){
+  es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target); } });
+}, {threshold:.15});
+document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+</script>
+</body>
+</html>
